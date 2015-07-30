@@ -13,11 +13,11 @@ app.use(bodyParser.json());
 //========= Serve =========///
 app.get('/', function(req, res) {
     // Serve index.html
-    res.send('Hello World!');
+    res.send('A list of Magento extensions created by Mediastrategi. Endpoint: http://extensions.lab.mediastrategi.se/api/extensions');
 });
 
 router.get('/', function(req, res) {
-    res.json({ message: 'hooray! Welcome to out awesome api!!!' });
+    res.json({ message: 'hooray! Welcome to our awesome api!!!' });
 });
 
 //========= Get Extensions Route =========///
