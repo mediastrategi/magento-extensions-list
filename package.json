@@ -1,0 +1,12 @@
+{
+  "name": "extensions-list",
+  "version": "0.0.1",
+  "description": "List of Magento Extension",
+  "main": "server.js",
+  "author": "Anders Kristoffersson",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1"
+  }
+}
